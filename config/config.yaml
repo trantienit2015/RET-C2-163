@@ -1,0 +1,5 @@
+# Runtime parameters — loaded separately from config/agent.yaml (the static
+# discovery manifest) and passed to the graph as Graph(config=...).
+max_retry: 3
+top_k: 8
+hybrid_search: true
